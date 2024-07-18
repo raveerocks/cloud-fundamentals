@@ -19,3 +19,41 @@ In this project, you will deploy a static website to AWS by performing the follo
 - S3 bucket configuration
 - Website distribution via CloudFront
 - Access website via web browser
+
+
+#   Submission Requirements
+
+- Created a S3 bucket.
+
+![Create Bucket](screenshots/create-bucket.png)
+
+- All website files should be added to the S3 bucket.
+
+![Upload Content](screenshots/upload-content.png)
+
+![Upload Content Suceess](screenshots/upload-success.png)
+
+
+- The bucket configuration should be set up to support static website hosting.
+
+![Enable Static Hosting](screenshots/enable-static-website-hosting.png)
+
+
+- The permission access to the bucket should be configured.
+
+![Update Bucket Policy](screenshots/update-bucket-policy.png)
+
+
+- The website should be distributed via Cloudfront.
+
+![Create Distribution](screenshots/create-distribution.png)
+
+
+![Distribution Deploying](screenshots/distribution-deploying.png)
+
+![Distribution Enabled](screenshots/distribution-enabled.png)
+
+- The website publicly accessible
+    - Endpoint - http://io.raveerocks.cloud-fundamentals.deploy-static-website.s3-website-us-east-1.amazonaws.com/
+
+![Website Loaded](screenshots/website-loaded.png)
